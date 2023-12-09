@@ -1,5 +1,7 @@
-.App {
-  text-align: center;
+.nav-u {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
 }
 
 .App-logo {
@@ -22,6 +24,14 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.inputBox{
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  bottom: 1px solid skyblue;
 }
 
 .App-link {
